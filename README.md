@@ -31,4 +31,23 @@ Project seeks to understand the factors important to predict if a patient will s
 > 4. Are scholarship beneficiaries likely to default compared to Non beneficiaries
 > 5. Are patients who receive reminders showing up than patients who do not?
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Key Insights 
+> 1.  We found that there is no difference in the behavior of both genders, as both genders show up for appointments in equal proportions (80%)
+> 2. We found that there was no significant difference in how different age groups showed up for appointments but the **Aged(65+)** slightly performed better (85%) compared to other age groups, this is no suprise as aged patients mostly require medical attention and will likely take their health issues more seriously.
+>. 3. It was evident wait time had slight effect on absence with just 66% of patient's with wait time greater than 120 days showing up to their appointment as scheduled while those with wait time 0-60days performed better with 80% shows and 61-120days with 72% shows respectively.
+4.  Though the difference was not significant, non-scholarship beneficiaries who paid for their health needs tend to show up better than those who benefited from the Bolsa familia scheme. 
+5. Sms reminders did not seem to matter in determining how patients show up to their appointments, infact patient's who did not receive sms (83%) showed up to their appointment better than those who did receive sms (72%)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Tools used
+- Python libraries 
+> Pandas  
+> Matplotlib  
+> Seaborn  
+> Numpy
+
+
 _N.B. This dataset was openly sourced from [Kaggle](https://www.kaggle.com/datasets/joniarroba/noshowappointments)_
